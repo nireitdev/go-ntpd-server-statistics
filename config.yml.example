@@ -1,0 +1,6 @@
+# Main configuration
+config:
+  device: "eth0"
+  ip: "192.168.0.1"
+  #timerange in seconds
+  timerange: 60
