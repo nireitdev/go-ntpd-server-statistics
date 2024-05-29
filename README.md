@@ -8,7 +8,7 @@ Requires install LibPcap development libs:
 apt install libpcap-dev
 ```
 
-Modify config.yml to match your interface and public ip to listen. 
+*IMPORTANT: * Modify config.yml to match your interface and public ip to listen. 
 
 Just run the thing:
 
