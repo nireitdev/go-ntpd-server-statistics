@@ -1,7 +1,10 @@
 # go-ntpd-server-statistics
 Obtains the amount of UNIQUE public IPs that access our self-hosted NTPD server during a interval of seconds.
 
+## HOW
+During an interval of time takes the IP public address from every packet arriving to our server (ntp protocol, port 123/UDP). Only count **unique IPs** and not amount of packets.
 
+## USE
 Requires install LibPcap development libs:
 
 ```
